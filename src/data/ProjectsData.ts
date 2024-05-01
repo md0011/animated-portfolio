@@ -24,9 +24,9 @@ interface ProjectsType {
     {
       title: 'Animated Portfolio',
       description: `Portfolio website built with React, Typescript, react-router-dom, framer-motion, react-icons, Scss`,
-      image: '',
-      GitHub: '',
-      hosted: '',
+      image: 'https://raw.githubusercontent.com/md0011/animated-portfolio/master/src/assets/example.png',
+      GitHub: 'https://github.com/md0011/animated-portfolio',
+      hosted: 'https://mayurdev.vercel.app/',
     },
     {
       title: 'MCQ Quiz App',
