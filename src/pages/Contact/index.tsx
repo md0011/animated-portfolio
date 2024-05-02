@@ -2,6 +2,8 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { useForm } from '@formspree/react';
 import Lottie from "react-lottie";
+import { ToastContainer, Bounce, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import { pageVariants, pageTransition } from "../../utils/FramerAnimation";
 import styles from "./contact.module.scss";
@@ -28,6 +30,17 @@ const Contact = () => {
       email: "",
       message: "",
     });
+    toast.success('Message Sent!', {
+      position: "bottom-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+      });
   };
 
   const defaultOptions = {
@@ -52,8 +65,8 @@ const Contact = () => {
         <div className={styles.form}>
           <h3 className={styles.contactOpen}>{contactOpen}</h3>
           <form onSubmit={(e) => {
-            handleSubmit(e)
-            handleOnsubmit()
+            handleSubmit(e);
+            handleOnsubmit();
           }}>
             <input
               type='text'
@@ -92,6 +105,7 @@ const Contact = () => {
             isPaused={false}
           />
         </div>
+        <ToastContainer />
       </motion.div>
     </div>
   );
