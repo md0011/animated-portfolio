@@ -1,7 +1,6 @@
 # Animated Portfolio 
 
-A personal portfolio website built with React.js featuring engaging animations throughout the user experience.
-
+A personal portfolio website built with React.js, featuring smooth animations powered by `Framer Motion`.
 
 ## 💻 Technologies used
 - React
@@ -25,7 +24,7 @@ A personal portfolio website built with React.js featuring engaging animations t
 
 ## 📷 Screenshot
 <p align="center">
-  <<img src="./src/assets/example.png" width="100%" height="auto" />
+  <img src="./src/assets/example.png" width="100%" height="auto" />
 </p>
 
 <p align="center">Lighthouse Speed</p>
