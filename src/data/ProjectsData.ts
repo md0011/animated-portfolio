@@ -15,18 +15,18 @@ interface ProjectsType {
       hosted: 'https://todo-list-mayurdev.vercel.app/',
     },
     {
-      title: 'Password Generator',
-      description: `A user-friendly interface for generating secure and customizable random passwords.`,
-      image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      GitHub: 'https://github.com/md0011/password-generator',
-      hosted: `https://strong-random-password-generator.vercel.app/`,
-    },
-    {
       title: 'Animated Portfolio',
       description: `Portfolio website built with React, Typescript, react-router-dom, framer-motion, react-icons, Scss`,
       image: 'https://raw.githubusercontent.com/md0011/animated-portfolio/master/src/assets/example.png',
       GitHub: 'https://github.com/md0011/animated-portfolio',
       hosted: 'https://mayurdev.vercel.app/',
+    },
+    {
+      title: 'Password Generator',
+      description: `A user-friendly interface for generating secure and customizable random passwords.`,
+      image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      GitHub: 'https://github.com/md0011/password-generator',
+      hosted: `https://strong-random-password-generator.vercel.app/`,
     },
     {
       title: 'MCQ Quiz App',
@@ -36,13 +36,6 @@ interface ProjectsType {
       hosted: `https://mcq-quiz-test.vercel.app/`,
     },
     {
-      title: 'UI/UX Portfolio',
-      description: `A personal portfolio website built using HTML, CSS, and JavaScript to showcase UI/UX design skills and projects.`,
-      image: 'https://raw.githubusercontent.com/md0011/UI-UX-Portfolio/master/images/about-banner.jpg',
-      GitHub: 'https://github.com/md0011/UI-UX-Portfolio',
-      hosted: 'https://mayurdev.netlify.app/',
-    },
-    {
       title: 'Random Quote Generator',
       description: `A Random Quote Generator is capable of pulling quotes randomly from an API.`,
       image: 'https://raw.githubusercontent.com/md0011/RandomQuoteGenerator/master/Screenshot.png',
@@ -50,10 +43,10 @@ interface ProjectsType {
       hosted: 'https://md0011.github.io/RandomQuoteGenerator/',
     },
     {
-      title: 'Calculator App',
-      description: `This project is a simple calculator application built with HTML, CSS, and JavaScript.`,
-      image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      GitHub: 'https://github.com/md0011/Calculator-App',
-      hosted: 'https://md0011.github.io/Calculator-App/',
+      title: 'UI/UX Portfolio',
+      description: `A personal portfolio website built using HTML, CSS, and JavaScript to showcase UI/UX design skills and projects.`,
+      image: 'https://raw.githubusercontent.com/md0011/UI-UX-Portfolio/master/images/about-banner.jpg',
+      GitHub: 'https://github.com/md0011/UI-UX-Portfolio',
+      hosted: 'https://mayurdev.netlify.app/',
     }
   ];
